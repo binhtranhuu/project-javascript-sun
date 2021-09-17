@@ -1,6 +1,6 @@
 # Project built with Javascript
 
-![screenshot](https://github.com/bradtraversy/proshop_mern/blob/master/uploads/Screen%20Shot%202020-09-29%20at%205.50.52%20PM.png)
+![screenshot](https://github.com/binhtranhuu/project-javascript-sun/blob/master/frontend/images/demo-javascript.png)
 
 ## Features
 
@@ -12,7 +12,7 @@
 
 ## Usage
 
-### Install Dependencies (frontend & backend)
+### Install Dependencies (frontend & json server)
 
 ```
 $ npm install
