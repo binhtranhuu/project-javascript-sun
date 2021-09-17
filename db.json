@@ -1,0 +1,325 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Rượu vang Đà Lạt",
+      "category": 1,
+      "image": "../images/product-1.png",
+      "price": 220000,
+      "brand": "Hiskywin",
+      "description": "Một hợp chất có trong rượu vang được gọi là resveratro có khả năng làm tăng tối đa tuổi thọ. Resveratro còn có khả năng ngăn chặn mật độ ôxy hoá của protein béo.",
+      "rating": 4.5,
+      "numReviews": 10,
+      "countInStock": 8
+    },
+    {
+      "id": "2",
+      "name": "Rượu vang Pháp",
+      "category": 1,
+      "image": "../images/product-2.png",
+      "price": 330000,
+      "brand": "Nike",
+      "description": "Một hợp chất có trong rượu vang được gọi là resveratro có khả năng làm tăng tối đa tuổi thọ. Resveratro còn có khả năng ngăn chặn mật độ ôxy hoá của protein béo.",
+      "rating": 5,
+      "numReviews": 51
+    },
+    {
+      "id": "3",
+      "name": "Rượu vang Đức",
+      "category": 1,
+      "image": "../images/product-3.png",
+      "price": 880000,
+      "brand": "Adidas",
+      "description": "Một hợp chất có trong rượu vang được gọi là resveratro có khả năng làm tăng tối đa tuổi thọ. Resveratro còn có khả năng ngăn chặn mật độ ôxy hoá của protein béo.",
+      "rating": 4,
+      "numReviews": 45
+    },
+    {
+      "id": "4",
+      "name": "Rượu vang Bồ Đào Nha",
+      "category": 2,
+      "image": "../images/product-4.png",
+      "price": 660000,
+      "brand": "Under Armour",
+      "description": "Một hợp chất có trong rượu vang được gọi là resveratro có khả năng làm tăng tối đa tuổi thọ. Resveratro còn có khả năng ngăn chặn mật độ ôxy hoá của protein béo.",
+      "rating": 2.5,
+      "numReviews": 198,
+      "countInStock": 6
+    },
+    {
+      "id": "5",
+      "name": "Rượu vang Philip",
+      "category": 2,
+      "image": "../images/product-5.png",
+      "price": 150000,
+      "brand": "Champion",
+      "description": "Một hợp chất có trong rượu vang được gọi là resveratro có khả năng làm tăng tối đa tuổi thọ. Resveratro còn có khả năng ngăn chặn mật độ ôxy hoá của protein béo.",
+      "rating": 3.5,
+      "numReviews": 89,
+      "countInStock": 6
+    },
+    {
+      "id": "6",
+      "name": "Rượu vang Mỹ",
+      "category": 3,
+      "image": "../images/product-6.png",
+      "price": 200000,
+      "brand": "Aelfric Eden",
+      "description": "Một hợp chất có trong rượu vang được gọi là resveratro có khả năng làm tăng tối đa tuổi thọ. Resveratro còn có khả năng ngăn chặn mật độ ôxy hoá của protein béo.",
+      "rating": 4.5,
+      "numReviews": 45,
+      "countInStock": 6
+    },
+    {
+      "id": "7",
+      "name": "Rượu vang Mỹ",
+      "category": 3,
+      "image": "../images/product-7.png",
+      "price": 600000,
+      "brand": "Aelfric Eden",
+      "description": "Một hợp chất có trong rượu vang được gọi là resveratro có khả năng làm tăng tối đa tuổi thọ. Resveratro còn có khả năng ngăn chặn mật độ ôxy hoá của protein béo.",
+      "rating": 4.5,
+      "numReviews": 45,
+      "countInStock": 6
+    },
+    {
+      "id": "8",
+      "name": "Rượu vang Mỹ",
+      "category": 1,
+      "image": "../images/product-1.png",
+      "price": 550000,
+      "brand": "Aelfric Eden",
+      "description": "Một hợp chất có trong rượu vang được gọi là resveratro có khả năng làm tăng tối đa tuổi thọ. Resveratro còn có khả năng ngăn chặn mật độ ôxy hoá của protein béo.",
+      "rating": 4.5,
+      "numReviews": 45,
+      "countInStock": 6
+    },
+    {
+      "id": "9",
+      "name": "Rượu vang Mỹ",
+      "category": 1,
+      "image": "../images/product-2.png",
+      "price": 500000,
+      "brand": "Aelfric Eden",
+      "description": "Một hợp chất có trong rượu vang được gọi là resveratro có khả năng làm tăng tối đa tuổi thọ. Resveratro còn có khả năng ngăn chặn mật độ ôxy hoá của protein béo.",
+      "rating": 4.5,
+      "numReviews": 45,
+      "countInStock": 6
+    },
+    {
+      "id": "10",
+      "name": "Rượu vang Mỹ",
+      "category": 3,
+      "image": "../images/product-3.png",
+      "price": 450000,
+      "brand": "Aelfric Eden",
+      "description": "Một hợp chất có trong rượu vang được gọi là resveratro có khả năng làm tăng tối đa tuổi thọ. Resveratro còn có khả năng ngăn chặn mật độ ôxy hoá của protein béo.",
+      "rating": 4.5,
+      "numReviews": 45,
+      "countInStock": 6
+    },
+    {
+      "id": "11",
+      "name": "Rượu vang Mỹ",
+      "category": 4,
+      "image": "../images/product-4.png",
+      "price": 300000,
+      "brand": "Aelfric Eden",
+      "description": "Một hợp chất có trong rượu vang được gọi là resveratro có khả năng làm tăng tối đa tuổi thọ. Resveratro còn có khả năng ngăn chặn mật độ ôxy hoá của protein béo.",
+      "rating": 4.5,
+      "numReviews": 45,
+      "countInStock": 6
+    },
+    {
+      "id": "12",
+      "name": "Rượu vang Mỹ",
+      "category": 3,
+      "image": "../images/product-5.png",
+      "price": 360000,
+      "brand": "Aelfric Eden",
+      "description": "Một hợp chất có trong rượu vang được gọi là resveratro có khả năng làm tăng tối đa tuổi thọ. Resveratro còn có khả năng ngăn chặn mật độ ôxy hoá của protein béo.",
+      "rating": 4.5,
+      "numReviews": 45,
+      "countInStock": 6
+    },
+    {
+      "id": "13",
+      "name": "Rượu vang Mỹ",
+      "category": 1,
+      "image": "../images/product-6.png",
+      "price": 820000,
+      "brand": "Aelfric Eden",
+      "description": "Một hợp chất có trong rượu vang được gọi là resveratro có khả năng làm tăng tối đa tuổi thọ. Resveratro còn có khả năng ngăn chặn mật độ ôxy hoá của protein béo.",
+      "rating": 4.5,
+      "numReviews": 45,
+      "countInStock": 6
+    },
+    {
+      "id": "14",
+      "name": "Rượu vang Mỹ",
+      "category": 4,
+      "image": "../images/product-7.png",
+      "price": 540000,
+      "brand": "Aelfric Eden",
+      "description": "Một hợp chất có trong rượu vang được gọi là resveratro có khả năng làm tăng tối đa tuổi thọ. Resveratro còn có khả năng ngăn chặn mật độ ôxy hoá của protein béo.",
+      "rating": 4.5,
+      "numReviews": 45,
+      "countInStock": 6
+    },
+    {
+      "id": "15",
+      "name": "Rượu vang Mỹ",
+      "category": 1,
+      "image": "../images/product-1.png",
+      "price": 400000,
+      "brand": "Aelfric Eden",
+      "description": "Một hợp chất có trong rượu vang được gọi là resveratro có khả năng làm tăng tối đa tuổi thọ. Resveratro còn có khả năng ngăn chặn mật độ ôxy hoá của protein béo.",
+      "rating": 4.5,
+      "numReviews": 45,
+      "countInStock": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Rượu Chivas"
+    },
+    {
+      "id": 2,
+      "name": "Rượu Whisky"
+    },
+    {
+      "id": 3,
+      "name": "Rượu Remy Martin"
+    },
+    {
+      "id": 4,
+      "name": "Rượu Glenmorangie"
+    },
+    {
+      "id": 5,
+      "name": "Rượu Brandy"
+    }
+  ],
+  "orders": [
+    {
+      "orderItems": [
+        {
+          "product": "5",
+          "name": "Rượu vang Philip",
+          "image": "../images/product-5.png",
+          "price": 370000,
+          "countInStock": 6,
+          "qty": 1
+        }
+      ],
+      "shipping": {
+        "address": "88 Nguyen Chi Thanh",
+        "city": "Ha Noi",
+        "postalCode": "100000",
+        "country": "Vietnam"
+      },
+      "payment": {
+        "paymentMethod": "Paypal"
+      },
+      "itemsPrice": 370000,
+      "shippingPrice": 0,
+      "taxPrice": 55500,
+      "totalPrice": 425500,
+      "id": 1
+    },
+    {
+      "orderItems": [
+        {
+          "product": "1",
+          "name": "Rượu vang Đà Lạt",
+          "image": "../images/product-1.png",
+          "price": 220000,
+          "countInStock": 6,
+          "qty": 1
+        }
+      ],
+      "shipping": {
+        "address": "88 Nguyen Chi Thanh",
+        "city": "Ha Noi",
+        "postalCode": "100000",
+        "country": "Vietnam"
+      },
+      "payment": {
+        "paymentMethod": "Paypal"
+      },
+      "itemsPrice": 220000,
+      "shippingPrice": 0,
+      "taxPrice": 33000,
+      "totalPrice": 253000,
+      "id": 2
+    },
+    {
+      "orderItems": [
+        {
+          "product": "1",
+          "name": "Rượu vang Đà Lạt",
+          "image": "../images/product-1.png",
+          "price": 220000,
+          "countInStock": 6,
+          "qty": 1
+        },
+        {
+          "product": "5",
+          "name": "Rượu vang Philip",
+          "image": "../images/product-5.png",
+          "price": 150000,
+          "countInStock": 6,
+          "qty": 1
+        }
+      ],
+      "shipping": {
+        "address": "99 Dinh Tien Hoang",
+        "city": "Ha Noi",
+        "postalCode": "70000",
+        "country": "Viet Nam"
+      },
+      "payment": {
+        "paymentMethod": "Paypal"
+      },
+      "itemsPrice": 370000,
+      "shippingPrice": 0,
+      "taxPrice": 55500,
+      "totalPrice": 425500,
+      "id": 3
+    },
+    {
+      "orderItems": [
+        {
+          "product": "1",
+          "name": "Rượu vang Đà Lạt",
+          "image": "../images/product-1.png",
+          "price": 220000,
+          "countInStock": 8,
+          "qty": 2
+        },
+        {
+          "product": "3",
+          "name": "Rượu vang Đức",
+          "image": "../images/product-3.png",
+          "price": 880000,
+          "qty": 1
+        }
+      ],
+      "shipping": {
+        "address": "99 Dinh Tien Hoang",
+        "city": "Ha Noi",
+        "postalCode": "70000",
+        "country": "Viet Nam"
+      },
+      "payment": {
+        "paymentMethod": "Stripe"
+      },
+      "itemsPrice": 1320000,
+      "shippingPrice": 0,
+      "taxPrice": 198000,
+      "totalPrice": 1518000,
+      "id": 4
+    }
+  ]
+}

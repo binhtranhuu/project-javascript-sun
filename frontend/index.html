@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>This Product List Page</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <link rel="icon" href="favicon-16x16.png" type="image/x-icon" sizes="16x16">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/fontawesome.css">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body class="page-wrapper">
+    <div class="overlay" id="loading-overlay">Loading...</div>
+    <div class="overlay" id="message-overlay"></div>
+    <div id="toast"></div>
+    <header id="header-container" class="header default"></header>
+    <main class="product-list" id="main-container">
+      <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+            <li class="breadcrumb-item"><a href="#">Sản phẩm</a></li>
+            <li class="breadcrumb-item active"><a href="#">Rượu vang đỏ</a></li>
+          </ol>
+        </nav>
+        <div class="banner-horizontal"><img src="../images/product-list-banner-1.png" alt="Banner"/></div>
+        <div class="row">
+          <div class="col-lg-9 order-lg-2">
+            <div class="product-list__content">
+              <div class="product-list__tabs">
+                <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                  <li class="nav-item"><a class="nav-link active" id="pills-products-gird-tab" data-toggle="pill" href="#pills-products-gird" role="tab" aria-controls="pills-products-gird" aria-selected="true"><i class="fas fa-th"></i></a></li>
+                  <li class="nav-item"><a class="nav-link" id="pills-products-list-tab" data-toggle="pill" href="#pills-products-list" role="tab" aria-controls="pills-products-list" aria-selected="false"><i class="fas fa-list"></i></a></li>
+                </ul>
+                <div class="pagination">
+                  <ul>
+                    <li class="pagination-pre"><a href="#"><i class="fas fa-caret-left"></i></a></li>
+                    <li>
+                      <ul class="list-pages">
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                      </ul>
+                    </li>
+                    <li class="pagination-next"><a href="#"><i class="fas fa-caret-right"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-products-gird" role="tabpanel" aria-labelledby="pills-products-gird-tab">
+                  
+                </div>
+                <div class="tab-pane fade" id="pills-products-list" role="tabpanel" aria-labelledby="pills-products-list-tab">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="product-list__sidebar">
+              <div class="product-list__categories">
+                <div class="heading title">
+                  <h3 class="heading__title">Danh mục sản phẩm</h3>
+                  <div class="heading__desc"><img src="../images/titleleft-dark.png" alt="Title"/></div>
+                </div>
+                <ul>
+                  <li><a href="#">Rượu ngoại</a></li>
+                  <ul>
+                    <li><a href="#">Rượu Chivas (26)</a></li>
+                    <li><a href="#">Hàng độc - Rượu độc đáo (36)</a></li>
+                    <ul>
+                      <li><a href="#">Johnnie Walker (46)</a></li>
+                    </ul>
+                    <li><a href="#">Rượu Whisky (24)</a></li>
+                    <li><a href="#">Rượu Remy Martin (16)</a></li>
+                    <li><a href="#">Rượu Glenmorangie (11)</a></li>
+                    <li><a href="#">Rượu Ballantine's (7)</a></li>
+                    <li><a href="#">Rượu Cognac (40)</a></li>
+                    <li><a href="#">Rượu Vodka (93)</a></li>
+                    <li><a href="#">Rượu Macallan (19)</a></li>
+                    <li><a href="#">Rượu Brandy (62)</a></li>
+                    <li><a href="#">Rượu Hennessy (20)</a></li>
+                    <li><a href="#">RượuGin - Tequila - Liqueur - Rượu mùi (36)</a></li>
+                    <li><a href="#">Rượu Champagne (12)</a></li>
+                    <li><a href="#">Rượu Single malt Scotch whisky (47)</a></li>
+                    <li><a href="#">Rượu Spirits (4)</a></li>
+                  </ul>
+                  <li><a href="#">Rượu vang</a></li>
+                  <ul>
+                    <li><a href="#">Rượu Vang Pháp (44)</a></li>
+                    <li><a href="#">Rượu Vang Úc (34)</a></li>
+                    <li><a href="#">Rượu Vang Mỹ (16)</a></li>
+                    <li><a href="#">Rượu Vang ChiLe (48)</a></li>
+                    <li><a href="#">Rượu Vang Philip (1)</a></li>
+                    <li><a href="#">Rượu Vang Nam Phi (20)</a></li>
+                    <li><a href="#">Rượu Vang Ý (2)</a></li>
+                  </ul>
+                </ul>
+              </div>
+              <div class="product-list__compare">
+                <div class="heading title">
+                  <h3 class="heading__title">So sánh sản phẩm</h3>
+                  <div class="heading__desc"><img src="../images/titleleft-dark.png" alt="Title"/></div>
+                </div>
+                <p>Bạn chưa có bất kỳ sản phẩm nào để so sánh</p>
+              </div>
+              <div class="product-list__tags">
+                <div class="heading title">
+                  <h3 class="heading__title">Tag sản phẩm</h3>
+                  <div class="heading__desc"><img src="../images/titleleft-dark.png" alt="Title"/></div>
+                </div>
+                <ul>
+                  <li><a href="#">Đồng hồ</a></li>
+                  <li><a href="#">Túi</a></li>
+                  <li><a href="#">Phụ kiện</a></li>
+                  <li><a href="#">Giày</a></li>
+                  <li><a href="#">Sandal</a></li>
+                  <li><a href="#">Áo sơ mi</a></li>
+                  <li><a href="#">Nước hoa</a></li>
+                  <li><a href="#">Trẻ em</a></li>
+                  <li><a href="#">Thời trang nữ</a></li>
+                </ul>
+              </div>
+              <div class="banner-vetical"><img src="../images/product-list-banner-2.png" alt="Banner"/>
+                <div class="banner-text"><span class="banner-text-medium">Rượu vang</span>
+                  <div class="banner-text-wrapper"><span class="banner-text-big">Đỏ</span><span class="banner-text-small">1980</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer id="footer-container" class="footer">
+      
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
